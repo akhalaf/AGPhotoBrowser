@@ -325,6 +325,7 @@ const NSInteger AGPhotoBrowserThresholdToCenter = 150;
 							 self.photoTableView.alpha = 1.;
 							 [self.photoTableView reloadData];
 						 }
+			                         [self statusBarDidChangeFrame:nil];
 					 }];
 }
 
